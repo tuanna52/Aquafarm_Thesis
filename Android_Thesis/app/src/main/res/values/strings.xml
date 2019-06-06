@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android_Thesis</string>
+    <string name="ph_text">pH</string>
+    <string name="do_text">DO</string>
+    <string name="ec_text">EC</string>
+    <string name="temp_text">Temp</string>
+    <string name="channel_name">MyChannel01</string>
+    <string name="channel_description">Channel_Description</string>
+</resources>

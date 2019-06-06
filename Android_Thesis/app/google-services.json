@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "902908940191",
+    "firebase_url": "https://aquafarm-c9b41.firebaseio.com",
+    "project_id": "aquafarm-c9b41",
+    "storage_bucket": "aquafarm-c9b41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902908940191:android:cacee7b0428b6a16",
+        "android_client_info": {
+          "package_name": "com.example.android_thesis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902908940191-turafpf2abt7vccmacs8opgvfn6m8msn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android_thesis",
+            "certificate_hash": "6d95d5214056aa59616080f7cf0fbb0bd56703d2"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDZ59GDWQZwTBTXN9cIa6W5vcEPO4VSZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902908940191-4o67vpi7mu5llhtq8diomdldfvujhecs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

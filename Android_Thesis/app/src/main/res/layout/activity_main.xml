@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="250dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#49FFFFFF">
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/ph"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="93dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/ph_text"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/vineritc" />
+                <TextView
+                    android:id="@+id/pH_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="230dp"
+                    android:text="0"
+                    android:textSize="45sp"
+                    android:fontFamily="@font/agencyb"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/pH_value"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="pH"
+                    android:textSize="17sp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/agencyb"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="340dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#49FFFFFF">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/do_anh"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="93dp"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/do_text"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/vineritc"/>
+                <TextView
+                    android:id="@+id/DO_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="230dp"
+                    android:text="0"
+                    android:textSize="45sp"
+                    android:fontFamily="@font/agencyb"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/DO_value"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="mg/L"
+                    android:textSize="17sp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/agencyb"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="430dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#49FFFFFF">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/ec"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="93dp"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/ec_text"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/vineritc"/>
+                <TextView
+                    android:id="@+id/EC_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="230dp"
+                    android:text="0"
+                    android:textSize="45sp"
+                    android:fontFamily="@font/agencyb"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/EC_value"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="µg/cm"
+                    android:textSize="17sp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/agencyb"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="520dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="#49FFFFFF">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/temp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="12dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="93dp"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/temp_text"
+                    android:textSize="30sp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/vineritc"/>
+                <TextView
+                    android:id="@+id/temp_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="230dp"
+                    android:text="0"
+                    android:textSize="45sp"
+                    android:fontFamily="@font/agencyb"
+                    android:textColor="#FFFFFF" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/temp_value"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="°C"
+                    android:textSize="17sp"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/agencyb"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
